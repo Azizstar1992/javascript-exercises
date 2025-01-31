@@ -1,4 +1,10 @@
-const repeatString = function() {
+const repeatString = function(word, amount) {
+    let solution ="";
+    while(amount-- >0)
+        {
+            solution+=word;
+        }
+    return solution;
 
 };
 
